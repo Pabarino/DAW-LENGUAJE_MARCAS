@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Probando estilo en head</title>
+    <link href="https://fonts.googleapis.com/css?family=Almarai|Mansalva|Roboto+Mono&display=swap" rel="stylesheet">
+    <!--estilo dentro de head-->
+    <style>
+        /*etiqueta como selector*/
+        body {color:navy;
+        font-family: 'Mansalva', cursive;
+        font-family: 'Almarai', sans-serif;
+        font-family: 'Roboto Mono', monospace;}             
+        /*mas de una etiqueta*/
+        h1, h2 {color:darkred}  
+        /*puedo nombrar la misma etiqueta varias veces*/ 
+        h1 {text-align:center;
+            background-color:rgba(0, 0, 255, 0.3);
+            border: 3px solid navy;
+            border-radius: 40px 60px;
+            width: 75%;
+            margin: 20px auto;
+            padding: 10px;}
+        /*solo se aplica a "b" que esta dentro de "p"*/
+        p b {color:deeppink}
+        /*indicando que hay un parrafo con el identificador unico (nombre) de confondo*/
+        p#confondo {background-color:silver;}
+        /*representa a la clase danger, pero solo se aplica a parrafos*/
+        p.danger {border:2px solid red}
+    
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet</h1>
+    <p class="danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus obcaecati laudantium saepe sunt officia, et commodi, at voluptatibus, quos voluptates earum voluptatum perferendis eum explicabo! <b>Atque adipisci iste odit quia.</b></p>
+    <p>Sunt quia animi obcaecati repudiandae accusantium. Repellat laboriosam enim, aut non velit vel vero, optio eum at deserunt labore possimus hic animi, eaque culpa? Esse voluptatum doloremque dignissimos corporis nemo.</p>
+    <blockquote class="danger">Voluptates dicta magnam error, dolorem iste quia soluta similique est fugiat aspernatur, porro rerum! Aut rem unde pariatur deleniti labore doloremque ipsa, adipisci, quis dolor laboriosam magni harum quae autem!</blockquote>
+    <p>Dolor sunt quam repudiandae modi, repellat numquam soluta, temporibus adipisci rerum debitis totam reprehenderit porro natus voluptas at excepturi similique eos? Voluptate recusandae commodi sequi, nemo natus consequatur fugit architecto.</p>
+    <p id="confondo">Molestiae ducimus nulla necessitatibus sit maiores, deserunt possimus recusandae dolorum nostrum dolores est cum itaque laudantium repellat? Explicabo delectus illo adipisci nesciunt alias iste vitae, nostrum dolor id rerum! Fugiat!</p>
+    <h2>Ejercicio de clase de 1° DAW</h2>
+    
+</body>
+</html>
