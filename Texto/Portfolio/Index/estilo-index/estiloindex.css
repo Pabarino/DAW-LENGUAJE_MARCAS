@@ -1,0 +1,17 @@
+/*Esta es la hoja de estilos para el portfolio*/
+body {background-color: black}
+#wrapper {
+    width:85vw;
+    margin:0 auto;
+    position:relative;
+}
+header img {
+    position:absolute;
+    width:100%;
+    height:auto;
+}
+header #title {
+    position:absolute;
+    top:20px;
+    left:50px;
+}
