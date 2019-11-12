@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Scary Halloween Party</title>
     <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet"> 
-    <link rel="icon" type="image/png" sizes="32x32" href="../imagenes/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon-32x32.png">
     <!--this document is NOT RESPONSIVE only can be seen on a PC monitor -->
-    <link href="../Styles/stylehalloween.css" rel="stylesheet">
+    <link href="Styles/stylehalloween.css" rel="stylesheet">
 
 <script>
     /* DECLARACION DE FUNCIONES */
@@ -32,15 +32,15 @@
 <body onload="sonar('ghost1'); sonar('skeleton'); sonar('skeleton2')">
         <audio id="ghost1">
                 
-                <source src="../sonido/ghost1.mp3" type="audio/mpeg">
+                <source src="sonido/ghost1.mp3" type="audio/mpeg">
         </audio> 
         <audio id="skeletonaudio1">
                 
-            <source src="../sonido/skeletonaudio1.mp3" type="audio/mpeg">
+            <source src="sonido/skeletonaudio1.mp3" type="audio/mpeg">
         </audio> 
         <audio id="skeletonaudio2">
                 
-            <source src="../sonido/skeletonaudio2.mp3" type="audio/mpeg">
+            <source src="sonido/skeletonaudio2.mp3" type="audio/mpeg">
         </audio> 
     
     <div id="wrapper">
@@ -51,9 +51,9 @@
         <div id="ventana3" onclick="mostrar('ghost'); mostrar('p3'); sonar('ghost1')"></div>
         <div id="ventana4" onclick="mostrar('ghost'); mostrar('p3'); sonar('ghost1')"></div>
         <div id="ventana5" onclick="mostrar('ghost'); mostrar('p3'); sonar('ghost1')"></div>
-        <img id="ghost" src="../imagenes/ghost1.gif" ondblclick="ocultar('ghost'); mostrar('skeleton1'); pausar('ghost1'); sonar('skeletonaudio1')">
-        <img id="skeleton1" src="../imagenes/skeleton1.gif" ondblclick="ocultar('skeleton1'); pausar('skeletonaudio1'); sonar('skeletonaudio2'); mostrar('skeleton2'); sonar('skeletonaudio1')">
-        <img id="skeleton2" src="../imagenes/skeleton1.gif" ondblclick="ocultar('skeleton2'); pausar('skeletonaudio1'); sonar('skeletonaudio2')">
+        <img id="ghost" src="imagenes/ghost1.gif" ondblclick="ocultar('ghost'); mostrar('skeleton1'); pausar('ghost1'); sonar('skeletonaudio1')">
+        <img id="skeleton1" src="imagenes/skeleton1.gif" ondblclick="ocultar('skeleton1'); pausar('skeletonaudio1'); sonar('skeletonaudio2'); mostrar('skeleton2'); sonar('skeletonaudio1')">
+        <img id="skeleton2" src="imagenes/skeleton1.gif" ondblclick="ocultar('skeleton2'); pausar('skeletonaudio1'); sonar('skeletonaudio2')">
         <p id="p2">Don't go clicking on the pumpkins...</p>
         <p id="p3">Welcome to our Halloween Party! <br>Dont forget to bring your spooky clothes <br>to XXXX Street on the YY/XX/YYYY.<br>Shoot down all the scary stuff<br> and Happy Spooktober!</p>
 

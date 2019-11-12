@@ -1,0 +1,40 @@
+/*Hoja de estilo de portfolio de Pablo*/
+body {
+    background-color:black;
+    margin:0;
+    font-family: 'Nanum Myeongjo', serif;
+}
+#wrapper {
+    width:90%;
+    background-color:white;
+    margin: auto;
+    
+}
+header {
+    position:relative;
+    /* height: 600px; aqui no hace falta, La imagen dimensiona el contenedor*/
+}
+header img {
+    width:100%; /* equivalente a un cover, si fuera img de fondo */
+    height:auto;
+}
+#title {
+    position:absolute;
+    background-color:rgba(90, 90, 90,0.9);
+    font-size:2vw;
+    width:50%;
+    text-align:center;
+    color:white;
+    /*estas 4 lineas son para centrar el bloque con position:absolute */
+    right:0;
+    left:0;
+    margin-left:auto;
+    margin-right:auto;
+
+    top:8vw; /* con position:relative, puedo controlar el top*/
+               /* el alto en px no es un problema */
+    padding:3vw; /*un numero de pixeles pequeno no tiene por que ser un problema*/
+    border: 4px solid white;
+    outline:4px solid rgb(102, 83, 83);
+    
+}
