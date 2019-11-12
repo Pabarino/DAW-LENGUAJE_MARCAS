@@ -19,79 +19,80 @@ header #title {
     position:absolute;
     top:1vh;;
     left:3vw;
+    font-size:2vw;
     font-family: 'Share Tech Mono', monospace;
     color:white;
     }
-header #ventanaIntro {
+nav #ventanaIntro {
     position:absolute;
-    top:160px;
-    left:50px;
+    top:22vh;
+    left:3vw;
     background-color:rgba(211, 211, 211, 0.9);
-    width:200px;
-    height:70px;
+    width:15vw;
+    font-size:0.9vw;
     cursor:pointer;
     }
-header #ventanaTipos {
+nav #ventanaTipos {
     position:absolute;
-    top:160px;
-    left:300px;
+    top:22vh;
+    left:19vw;
     background-color:rgba(211, 211, 211, 0.9);
-    width:200px;
-    height:70px;
+    width:15vw;
+    font-size:0.9vw;
     cursor:pointer;
     }
-header #ventanaFunc {
+nav #ventanaFunc {
     position:absolute;
-    top:160px;
-    left:550px;
+    top:22vh;
+    left:35vw;
     background-color:rgba(211, 211, 211, 0.9);
-    width:200px;
-    height:70px;
+    width:15vw;
+    font-size:0.9vw;
     cursor:pointer;
     }
-header #ventanaInstal {
+nav #ventanaInstal {
     position:absolute;
-    top:160px;
-    left:800px;
+    top:22vh;
+    left:51vw;
     background-color:rgba(211, 211, 211, 0.9);
-    width:200px;
-    height:70px;
+    width:15vw;
+    font-size:0.9vw;
     cursor:pointer;
     }
-header #ventanaMarcas {
+nav #ventanaMarcas {
     position:absolute;
-    top:160px;
-    left:1050px;
+    top:22vh;
+    left:67vw;
     background-color:rgba(211, 211, 211, 0.9);
-    width:200px;
-    height:70px;
+    width:15vw;
+    font-size:0.9vw;
     cursor:pointer;
     }
-header #ventanaDonde {
+nav #ventanaDonde {
     position:absolute;
-    top:160px;
-    left:1300px;
+    top:22vh;
+    left:83vw;
     background-color:rgba(211, 211, 211, 0.9);
-    width:200px;
-    height:70px;
+    width:15vw;
+    font-size:0.9vw;
     cursor:pointer;
     }
-header #ventanaBiblio {
+nav #ventanaBiblio {
     position:absolute;
-    top:20px;
-    left:1300px;
+    top:3vh;
+    left:83vw;
     background-color:rgba(211, 211, 211, 0.9);
-    width:200px;
-    height:60px;
+    width:15vw;
+    font-size:0.9vw;
     cursor:pointer;
     }
-header h2 {
+nav h2 {
     color:white;
     text-align:center;
     font-family: 'Share Tech Mono', monospace;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     }
-header h3 {
+nav h3 {
     color:white;
     text-align:center;
     font-family: 'Share Tech Mono', monospace;
@@ -111,29 +112,36 @@ main #Intro img {
     margin-left:auto;
     margin-right:auto;
     top:50vh;
-    height: auto;
+    height:auto;
     opacity:0.3;
     }
 main #Intro h1 {
     position:absolute;
-    left:10vw;
+    right:0;
+    left:0;
+    margin-left:auto;
+    margin-right:auto;
     top:50vh;
     background-color:rgba(128, 128, 128,0.6);
-    width:80%;
+    width:60vw;
     color:white;
     text-align:center;
     font-family: 'Share Tech Mono', monospace;
+    font-size:2vw;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     }
 main #Intro p {
     position:absolute;
-    left:10vw;
+    right:0;
+    left:0;
+    margin-left:auto;
+    margin-right:auto;
     top:70vh;
-    width:52vw;
+    width:50vw;
     height:40vh;
     color:white;
     font-family: 'Share Tech Mono', monospace;
-    font-size: 1.5em;
+    font-size: 1.3vw;
     }
 
     /*-------------------End of Introduccion---------------------*/
@@ -165,25 +173,25 @@ main #Tipos p {
 
     /*--------------------Start of Hovers------------------------*/
 
- header #ventanaIntro:hover {
+nav #ventanaIntro:hover {
     border: 4px solid white;
     }
-header #ventanaTipos:hover {
+nav #ventanaTipos:hover {
     border: 4px solid white;
     } 
-header #ventanaFunc:hover {
+nav #ventanaFunc:hover {
     border: 4px solid white;
     } 
-header #ventanaInstal:hover {
+nav #ventanaInstal:hover {
     border: 4px solid white;
     } 
-header #ventanaMarcas:hover {
+nav #ventanaMarcas:hover {
     border: 4px solid white;
     } 
-header #ventanaDonde:hover {
+nav #ventanaDonde:hover {
     border: 4px solid white;
     } 
-header #ventanaBiblio:hover {
+nav #ventanaBiblio:hover {
     border: 4px solid white;
     } 
 main #Intro:hover {
