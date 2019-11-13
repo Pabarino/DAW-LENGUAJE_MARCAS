@@ -1,0 +1,51 @@
+/*Esta es la hoja de estilos para el trabajo de DSI Metrica v3*/
+
+body {
+    background-image: url("../imagenes-dsi/fondo.jpg");
+    background-repeat:repeat;
+    }
+  * {margin:0;
+    padding:0;
+    }
+#wrapper {
+    width:100vw;
+    margin:0 auto;
+    position:relative;
+    }
+header #Titulo {
+    margin:0;
+    position:absolute;
+    text-align:center;
+    font-size:2.5vw;
+    color:white;
+    font-family: 'Share Tech Mono', monospace;
+    background-color:rgba(128, 128, 128,0.5);
+    padding: 10vh;
+    }
+header div #Indice{
+    overflow-x:auto;
+    }
+header #Indice {
+    position:absolute;
+    color:white;
+    font-size:1vw;
+    width:80%;
+    border-collapse:collapse;
+    margin-top:26vh;
+    margin-left:10%;
+    }
+header #indice, th {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid white;
+    background-color:grey;
+    }
+header #Indice th {
+    cursor:pointer;
+    }
+main div {
+    overflow-x:auto;
+    }
+    header #Indice th:hover {
+    border: 4px solid white;
+    } 
