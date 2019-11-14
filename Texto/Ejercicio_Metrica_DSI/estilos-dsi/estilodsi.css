@@ -28,7 +28,7 @@ header div #Indice{
 header #Indice {
     position:absolute;
     color:white;
-    font-size:1vw;
+    font-size:1em;
     width:80%;
     border-collapse:collapse;
     margin-top:26vh;
