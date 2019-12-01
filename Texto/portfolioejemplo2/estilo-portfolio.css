@@ -4,6 +4,10 @@ body {
     margin:0;
     font-family: 'Nanum Myeongjo', serif;
 }
+* {
+    margin:0;
+    padding:0;
+}
 #wrapper {
     width:90%;
     background-color:white;
@@ -17,6 +21,12 @@ header {
 header img {
     width:100%; /* equivalente a un cover, si fuera img de fondo */
     height:auto;
+}
+#para.pc {
+    display:block;
+}
+#para-movil {
+    display: none;
 }
 #title {
     position:absolute;
@@ -38,3 +48,97 @@ header img {
     outline:4px solid rgb(102, 83, 83);
     
 }
+/*estilo de nav*/
+    nav {
+        font-size:2.5vw;
+        position: sticky;
+        top:0;
+    }
+    nav ul { 
+        margin: 0;
+        padding:0;
+        list-style-type:none;
+        background-color: orangered;
+    }
+    nav ul li {
+        display: inline-block;
+        padding:15px;
+    }
+
+    nav a {
+        color:white;        
+        text-decoration: none;
+        
+    }
+    a:hover {
+        color:black;
+    }
+    nav ul li a.active{
+        background-color: rgb(250, 112, 61);
+        padding: 15px;
+    }
+
+/*estilo de main */
+/* este codigo lo he traido de w3schools */
+main {
+    background-color:white;
+}
+main h2 {
+    text-align:center;
+    font-size: 5vw;
+}
+div.polaroid {
+    float: left;
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5%;
+    cursor: pointer;
+  }
+  
+  div.polaroid:hover {
+    opacity: 0.5;
+    /*border: 1px solid black;*/
+  }
+
+  div.polaroid img {
+      width:92%;
+      margin:4%;
+}
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  /*siempre que use float para apilar columnas, debo acabar poniendo un div
+    e indicando que a partir de ahi se acaba el apilamiento */
+  #fin-float {clear: both;}
+
+  footer { 
+    background-color:silver;
+    color:white;
+    font-size:0.8em;
+    font-weight:bold;
+    text-align:center;
+  }
+
+  footer.fa {font-size:5em;}
+  
+  @media only screen and (max-width:500px){
+    #wrapper { width: 100%;}
+    #para-pc { display: none;}
+    #para-movil {display: block;
+    height:100vh;} /* para que la imagen de fondo ocupe todo el alto del movil*/
+    div.polaroid {
+       width:90%;
+       }
+    main h2 {
+        font-size:8vw;
+    }
+  }
+
+  @media only screen and (max-width:450px){
+      header image /*aqui podre cambiar la imagen por otra 
+      para que se adapte a moviles*/
+  }
