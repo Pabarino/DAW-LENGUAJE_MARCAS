@@ -1,0 +1,72 @@
+/*Aque va el estilo de alagaesia */
+body {
+    background-image:url("../imagenes/tile-sky2.jpg");
+    font-family:"Youtheme";   
+}
+
+#wrapper{
+    width:80%;
+    margin:auto;
+}
+
+/* Aqui empieza el header */
+header {
+    position:relative;
+    height:300px; /*revisar despues */
+    background-image:url("../imagenes/header.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+@font-face {font-family:"Youtheme";
+    src: url("../fuentes/ENDORALT.ttf");
+}
+
+header #titulo {position:absolute;
+                top:200px;
+                right:200px;
+                color:white;
+                font-family:"Youtheme";
+                font-size: 4em;
+}
+
+/* Aqui empieza nav */
+
+/* Aqui empieza main */
+
+main {
+    background-image:url("../imagenes/tile.jpg");
+    color: white;
+    font-size:2em;
+    padding:20px;
+}
+
+main h2 {
+    color:rgb(177,200,216);
+}
+
+main p, main h2 {text-indent:3em;}
+
+main img {
+    width:20%;
+    margin-left:4%;
+}
+
+
+/* media query */
+@media only screen and (max-width:800px){
+    main img {
+        width: 40%;
+        margin-left:5%;
+        margin-bottom:20px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #wrapper {width:95%;}
+    main img {
+        width:70%;
+        display:block;
+        margin: 20px auto;
+    }
+}
